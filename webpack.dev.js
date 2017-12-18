@@ -9,7 +9,7 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: {
         app: './src/index.js',
-        vendor: ['babel-polyfill']
+        vendor: ['react', 'react-dom', 'babel-polyfill']
     },
     output: {
         filename: '[name].[hash].min.js',
